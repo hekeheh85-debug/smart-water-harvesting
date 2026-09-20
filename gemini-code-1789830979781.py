@@ -10,7 +10,7 @@ uploaded_file = st.file_uploader("اختر صورة المستنقع أو الت
 
 if uploaded_file is not None:
     # عرض الصورة المرفوعة
-    st.image(uploaded_file, caption="صورة المستنقع المرفوعة", use_column_width=True)
+    st.image(uploaded_file, caption="صورة المستنقع المرفوعة", use_container_width=True)
     
     st.write("جاري تحليل الصورة بالذكاء الاصطناعي...")
     
